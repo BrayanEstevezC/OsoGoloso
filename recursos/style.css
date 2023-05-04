@@ -17,6 +17,37 @@ footer {
 }
 
 .LogoFooter{
-    width: 6rem;
-    height: 4rem;
+    width: 10rem;
+    height: 5rem;
 }
+.contacto{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+  
+  a:hover i {
+    animation: beat 1s infinite alternate;
+  }
+  
+.presentacion{
+    width: 50%;
+    margin: auto;
+    border: aliceblue 2px solid;
+}
+.titulo{
+    font-family: 'Permanent Marker', cursive;
+}
+h3{
+    font-family: 'Anton', sans-serif;
+}
+
+  @keyframes beat {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+  }
+  
